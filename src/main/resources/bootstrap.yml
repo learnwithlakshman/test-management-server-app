@@ -1,0 +1,13 @@
+server:
+   port: 8200
+---
+spring:
+   application:
+      name: test-management-app
+---
+spring:
+   cloud:
+      config:
+         uri: http://localhost:8888
+        
+        
